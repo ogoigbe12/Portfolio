@@ -43,18 +43,7 @@ body {
   align-items: center;
 }
 
-/* #navbar {
-  width: 100%;
-  position: absolute;
-  height: 72px;
-  left: 0px;
-  top: 0px;
-  display: flex;
-  justify-content: space-between;
-  padding: 26px 164px 26px 155px;
-  align-items: center;
-  background: #ffffff;
-} */
+
 
 #brand {
   font-family: "Poppins";
