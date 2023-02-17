@@ -136,7 +136,7 @@ div ul {
 }
 
 #Ellipse4 {
-  left:63%;
+  left: 63%;
   transform: translate(0%, 18%);
 }
 
@@ -188,7 +188,7 @@ div ul {
 }
 
 #Rectangle5 {
-  left: 50%;  
+  left: 50%;
 }
 
 .eli {
@@ -196,7 +196,7 @@ div ul {
   padding: 1rem;
 }
 
-.icons { 
+.icons {
   position: relative;
   padding: 1rem;
   max-width: 960px;
@@ -216,7 +216,9 @@ div ul {
  .hamburger {
     display: block;
  }
+
  #navbar ul {
     display: none;
  }
+ 
 }
