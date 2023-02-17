@@ -4,30 +4,48 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+font-family: inherit;
 }
 
 body {
   height: 100vh;
   overflow-y: scroll;
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-family: Poppins, sans-serif;
+}
+
+li{
+  list-style: none;
 }
 
 #navbar {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
+  padding: 2rem clamp(1rem, 7vw, 15rem);
 }
 
 #navbar a {
   text-decoration: none;
-  font-family: Poppins, sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-  color: #6070ff;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  margin-left: 24px;
+}
+
+#navbar .logo{
+color: #6070ff;
+font-weight: bold;
+font-size: 2rem;
+}
+
+#navbar ul{
+  display:flex;
+  gap: 1.5rem;
+}
+
+#navbar ul a{
+  color: #344563;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 #navbar a:hover {
@@ -36,17 +54,14 @@ body {
   text-decoration-thickness: 2px;
 }
 
-#navbar nav {
-  width: 45px;
-  height: 30px;
-  display: flex;
-  align-items: center;
+.hamburger{
+  display: none;
 }
 
 #brand {
   font-style: normal;
   font-weight: 700;
-  font-family: "Poppins";
+  font-family: Poppins, sans-serif;
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
@@ -56,7 +71,7 @@ body {
   list-style-type: none;
   font-style: normal;
   font-weight: 500;
-  font-family: "Poppins";
+  font-family: Poppins, sans-serif;
   font-size: 15px;
   line-height: 20px;
   color: #344563;
@@ -69,12 +84,10 @@ body {
 }
 
 #headline {
-  display: flex;
-  justify-content: center;
-  height: 800px;
-  flex-direction: column;
-  width: 920px;
+width: fit-content;
   margin: auto;
+  max-width: 960px;
+  padding: 2rem;
 }
 
 .title {
@@ -91,7 +104,7 @@ body {
 .description {
   font-style: normal;
   font-weight: 400;
-  font-family: "Poppins";
+  font-family: Poppins, sans-serif;
   font-size: 20px;
   line-height: 28px;
   color: #344563;
@@ -108,34 +121,30 @@ div ul {
 .contact-link {
   font-style: normal;
   font-weight: 500;
-  font-family: "Poppins";
+  font-family: Poppins, sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
 }
 
 #Ellipse3 {
-  position: absolute;
-  width: 224px;
-  height: 224px;
-  left: 1208px;
-  top: 192px;
+ position: absolute;
+ right: 1rem;
+ height: 100px;
+ transform: rotate(10deg);
+ transform: translate(0, 10px);
 }
 
 #Ellipse4 {
-  position: absolute;
-  width: 47px;
-  height: 47px;
-  left: 839px;
-  top: 600px;
+ left:63%;
+ transform: translate(0%, 18%);
 }
 
 #Ellipse5 {
   position: absolute;
-  width: 23px;
-  height: 23px;
-  left: 708px;
-  top: 200px;
+  left: 50%;
+  top: calc(50% + 1.1rem);
+  transform: translate(-50%, 60%);
 }
 
 #Ellipse6 {
@@ -155,78 +164,60 @@ div ul {
 }
 
 #Ellipse11 {
-  position: absolute;
-  width: 80.48px;
-  height: 40.24px;
-  left: 139.2px;
-  top: 140.68px;
+  height: 40px;
+ transform: translate(-30px, 5px);
 }
 
 #Ellipse12 {
-  position: absolute;
-  width: 36.9px;
-  height: 18.45px;
-  left: 290.7px;
-  top: 658px;
-}
-
-#Ellipse13 {
-  position: absolute;
-  width: 46px;
-  height: 46px;
-  left: 276.06px;
-  top: 670px;
+  transform: translate(0, -19px);
+  left: 1.5rem;
 }
 
 #Rectangle4 {
   position: absolute;
-  width: 204px;
-  height: 247px;
-  left: 1146px;
-  top: 70px;
-}
-
-#Rectangle5 {
-  position: absolute;
-  width: 161.41px;
-  height: 200.87px;
-  left: 731.44px;
-  top: 543px;
-}
-
-#Rectangle6 {
-  position: absolute;
-  width: 108.67px;
-  height: 70px;
-  left: 95px;
-  top: 100px;
+  right: 2rem;
+  height: 80px;
+  transform: translate(0, -40px);
 }
 
 #Rectangle7 {
   position: absolute;
-  width: 56.01px;
-  height: 10.02px;
-  left: 690.25px;
-  top: 193px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 60%);
 }
 
-/* @media only screen and (max-width: 768px) {
-  #navbar {
-    width: 100%;
-    position: absolute;
-    height: 72px;
-    left: 0px;
-    top: 0px;
-    display: flex;
-    justify-content: space-between;
-    padding: 26px 164px 26px 155px;
-    align-items: center;
-    background: #ffffff;
-  }
-} */
+#Rectangle5{
+left: 50%;  
+}
 
-@media screen and (min-width: 768px) {
-  nav {
-    display: none;
-  }
+.eli{
+position: relative;
+padding: 1rem;
+}
+
+.icons{ 
+  position: relative;
+  padding: 1rem;
+  max-width: 960px;
+  width: 100vw;
+  margin: auto;
+}
+
+.icons img{
+  position: absolute;
+}
+
+.wrapper{
+  padding-bottom: 8rem;
+}
+
+@media only screen and (max-width: 768px) {
+ .hamburger{
+  display: block;
+ }
+ #navbar ul{
+  display: none;
+ }
+
 }
