@@ -43,12 +43,10 @@ body {
   align-items: center;
 }
 
-
-
 #brand {
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
+  font-family: "Poppins";
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
@@ -56,9 +54,9 @@ body {
 
 .menu {
   list-style-type: none;
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
+  font-family: "Poppins";
   font-size: 15px;
   line-height: 20px;
   color: #344563;
@@ -80,9 +78,9 @@ body {
 }
 
 .title {
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
+  font-family: "Poppins";
   font-size: 48px;
   line-height: 60px;
   letter-spacing: 0.37px;
@@ -91,9 +89,9 @@ body {
 }
 
 .description {
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
+  font-family: "Poppins";
   font-size: 20px;
   line-height: 28px;
   color: #344563;
@@ -108,9 +106,9 @@ div ul {
 }
 
 .contact-link {
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
+  font-family: "Poppins";
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
