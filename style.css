@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-font-family: inherit;
+  font-family: inherit;
 }
 
 body {
@@ -17,7 +17,7 @@ body {
   font-family: Poppins, sans-serif;
 }
 
-li{
+li {
   list-style: none;
 }
 
@@ -31,18 +31,25 @@ li{
   text-decoration: none;
 }
 
-#navbar .logo{
-color: #6070ff;
-font-weight: bold;
-font-size: 2rem;
+#navbar .logo {
+  color: #6070ff;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
-#navbar ul{
-  display:flex;
+div ul {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  margin-left: 24px;
+}
+
+#navbar ul {
+  display: flex;
   gap: 1.5rem;
 }
 
-#navbar ul a{
+#navbar ul a {
   color: #344563;
   font-size: 1rem;
   font-weight: 500;
@@ -54,7 +61,7 @@ font-size: 2rem;
   text-decoration-thickness: 2px;
 }
 
-.hamburger{
+.hamburger {
   display: none;
 }
 
@@ -84,7 +91,7 @@ font-size: 2rem;
 }
 
 #headline {
-width: fit-content;
+  width: fit-content;
   margin: auto;
   max-width: 960px;
   padding: 2rem;
@@ -111,13 +118,6 @@ width: fit-content;
   margin-bottom: 12px;
 }
 
-div ul {
-  display: flex;
-  align-items: center;
-  padding-left: 0;
-  margin-left: 24px;
-}
-
 .contact-link {
   font-style: normal;
   font-weight: 500;
@@ -128,16 +128,16 @@ div ul {
 }
 
 #Ellipse3 {
- position: absolute;
- right: 1rem;
- height: 100px;
- transform: rotate(10deg);
- transform: translate(0, 10px);
+  position: absolute;
+  right: 1rem;
+  height: 100px;
+  transform: rotate(10deg);
+  transform: translate(0, 10px);
 }
 
 #Ellipse4 {
- left:63%;
- transform: translate(0%, 18%);
+  left:63%;
+  transform: translate(0%, 18%);
 }
 
 #Ellipse5 {
@@ -165,7 +165,7 @@ div ul {
 
 #Ellipse11 {
   height: 40px;
- transform: translate(-30px, 5px);
+  transform: translate(-30px, 5px);
 }
 
 #Ellipse12 {
@@ -187,16 +187,16 @@ div ul {
   transform: translate(-50%, 60%);
 }
 
-#Rectangle5{
-left: 50%;  
+#Rectangle5 {
+  left: 50%;  
 }
 
-.eli{
-position: relative;
-padding: 1rem;
+.eli {
+  position: relative;
+  padding: 1rem;
 }
 
-.icons{ 
+.icons { 
   position: relative;
   padding: 1rem;
   max-width: 960px;
@@ -204,20 +204,19 @@ padding: 1rem;
   margin: auto;
 }
 
-.icons img{
+.icons img {
   position: absolute;
 }
 
-.wrapper{
+.wrapper {
   padding-bottom: 8rem;
 }
 
 @media only screen and (max-width: 768px) {
- .hamburger{
-  display: block;
+ .hamburger {
+    display: block;
  }
- #navbar ul{
-  display: none;
+ #navbar ul {
+    display: none;
  }
-
 }
