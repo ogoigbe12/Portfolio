@@ -213,9 +213,9 @@ div ul {
 }
 
 @media only screen and (max-width: 768px) {
-    .hamburger {
-       display: block;
-      }
+  .hamburger {
+    display: block;
+  }
 
   #navbar ul {
     display: none;
