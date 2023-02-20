@@ -23,9 +23,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Microverse] <a name="about-project"></a>
+# 📖 [PORTFOLIO] <a name="about-project"></a>
 
-**[Hello Microverse]** is a git and github training project.
+**[PORTFOLIO]** is a git and github training project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
