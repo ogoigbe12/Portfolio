@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="micro.png" alt="logo" width="500"  height="auto" />
+  <img src="sammie.jpg" alt="logo" width="500"  height="auto" />
   <br/>
 </div>
 
