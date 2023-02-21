@@ -101,6 +101,7 @@ ul {
   }
 
   #projects {
+    
     /* display: flex; */
     /* flex-direction: column; */
     display: grid;
