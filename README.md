@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="sammie.jpg" alt="logo" width="500"  height="auto" />
+  <img src="newprofile.png" alt="logo" width="500"  height="auto" />
   <br/>
 </div>
 
@@ -84,6 +84,14 @@ To run the project, execute the following command:
 
 - [ ] **demo project**
 - [ ] **responsive design**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Major thanks to [macroverse template]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
