@@ -101,9 +101,6 @@ ul {
   }
 
   #projects {
-    
-    /* display: flex; */
-    /* flex-direction: column; */
     display: grid;
     justify-content: center;
     align-items: center;
